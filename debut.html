@@ -1,0 +1,45 @@
+<style>
+    .btn-width 
+    {
+        padding: 0;
+        background: black;
+        border: none;
+        outline: none;
+        margin-right: -2px;
+        height: 50px;
+        width:228px;
+    }
+
+    .img-width 
+    {
+        max-width: 250px;
+        height: 45px;
+    }
+
+    @media screen and (max-width: 750px) 
+    {
+        .btn-width 
+        {
+            width: auto;
+        }
+    }
+    @media screen and (max-width: 500px) 
+    {
+        .btn-width 
+        {
+            width: 100%;
+        }
+    }
+</style>
+  <br />
+  
+<button
+    onclick="close_checkout(event, 'dfsgdfg', 'dfgfdgf')"
+    class="btn-width"
+>
+    <img
+      class="img-width"
+      src="https://integration.closecheckout.com/imgs/white_close.png"
+      alt="Close Checkout"
+    />
+</button>

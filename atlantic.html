@@ -1,0 +1,90 @@
+<style>
+
+    /* SIDE BAR CART */
+
+    /* 1) For side bar view of cart, close button full width */
+    .btn-width 
+    {
+        padding: 0;
+        background: black;
+        margin-top: 10px;
+        height: 40px;
+        width: 100%;
+        border: none;
+    }
+    .img-width 
+    {
+        max-width: 250px;
+        height: 40px;
+    }
+
+
+    /* 1) For side bar view of cart, close button half width */
+    .close-btn-width 
+    {
+        position: relative;
+        right: -163px;
+        padding: 0;
+        background: black;
+        height: 40px;
+        width: 47%;
+        border: none;
+        margin-top: 10px;
+    }
+
+    .img-width 
+    {
+        max-width: 150px;
+        height: 40px;
+    }
+
+    /* Main cart page */
+    .btn-width 
+    {
+        padding: 0;
+        background: black;
+        height: 50px;
+        width: 58%;
+        border: none;
+        margin-top: 10px;
+    }
+
+    .img-width 
+    {
+        max-width: 150px;
+        height: 40px;
+    }
+
+    @media screen and (max-width: 719px) 
+    {
+        .btn-width 
+        {
+            width: 100%;
+        }
+    }
+
+</style>
+  <br />
+  
+<button
+    onclick="close_checkout(event, 'dfsgdfg', 'dfgfdgf')"
+    class="btn-width"
+>
+    <img
+      class="img-width"
+      src="https://integration.closecheckout.com/imgs/white_close.png"
+      alt="Close Checkout"
+    />
+</button>
+
+<!-- For side bar cart, use close button with another classname -->
+<button
+    onclick="close_checkout(event, 'dfsgdfg', 'dfgfdgf')"
+    class="close-btn-width"
+>
+    <img
+      class="img-width"
+      src="https://integration.closecheckout.com/imgs/white_close.png"
+      alt="Close Checkout"
+    />
+</button>
